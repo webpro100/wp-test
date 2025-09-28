@@ -361,9 +361,3 @@ function allow_svg_upload($mime_types)
 	return $mime_types;
 }
 add_filter('upload_mimes', 'allow_svg_upload');
-
-function wpa_fix_svg_thumb()
-{
-	echo '<style>td.media-icon img[src$=".svg"], img[src$=".svg"].attachment-post-thumbnail {width: 100% !important;height: auto !important}</style>';
-}
-add_action('admin_head', 'wpa_fix_svg_thumb');
