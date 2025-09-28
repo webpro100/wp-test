@@ -369,3 +369,5 @@ function wpa_fix_svg_thumb()
 add_action('admin_head', 'wpa_fix_svg_thumb');
 
 //test3333
+
+echo "sssss";
