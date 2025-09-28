@@ -1,0 +1,44 @@
+# OS
+.DS_Store
+Thumbs.db
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Build output
+dist/
+.vite/
+
+# Sass cache
+.sass-cache/
+
+# Local env files
+.env
+.env.*
+!.env.example
+
+# WordPress uploads and cache
+wp-content/uploads/
+wp-content/cache/
+wp-content/upgrade/
+
+# WordPress core (leave only theme in repo)
+wp-admin/
+wp-includes/
+
+# Logs
+*.log
+
+# IDE / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Misc
+*.bak
+*.tmp

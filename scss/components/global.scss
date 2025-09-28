@@ -1,0 +1,90 @@
+@use '../abstracts/variables' as v;
+@use '../abstracts/mixins' as m;
+
+@font-face {
+  font-family: 'Roboto';
+  src: url('../../fonts/Roboto-VariableFont_wdth,wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-stretch: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+html {
+	-webkit-font-smoothing: antialiased;
+	-webkit-text-size-adjust: none;
+	height: 100%;
+	scrollbar-color: v.$bg #eee;
+	scrollbar-width: thin
+}
+
+body {
+	margin: 0;
+    font: 400 #{v.$font-base}/ 1.5714 v.$mainFont, sans-serif;
+	line-height: 1.4;
+	color: v.$fontColor;
+	position: relative;
+	height: 100%;
+    background: v.$bg;
+}
+
+input,
+select,
+textarea {
+	-webkit-appearance: none;
+	font-family: v.$mainFont;
+	font-size: 16px;
+	outline: none;
+	border-radius: 0
+}
+
+*,
+*:before,
+*:after {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	box-sizing: border-box
+}
+
+.c,
+hr {
+	clear: both;
+	font-size: 0;
+	overflow: hidden;
+	display: block
+}
+
+p {
+	padding-bottom: 15px;
+}
+
+
+.wrap {
+	width: 1440px;
+	max-width: 96%;
+    margin: 0 auto;
+}
+
+
+.logo {
+	background: url(../../img/logo.svg) no-repeat;
+	width: 119px;
+	aspect-ratio: 6.11293634;
+	font-size: 0;
+    display: block;
+}
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}
+
+
+
+
+
+
+
+

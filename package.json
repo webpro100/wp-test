@@ -1,0 +1,18 @@
+{
+  "name": "wp-base",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --https --host"
+  },
+  "devDependencies": {
+    "sass": "^1.93.0",
+    "vite": "^7.1.6"
+  },
+  "dependencies": {
+    "gsap": "^3.13.0",
+    "lenis": "^1.3.11"
+  }
+}

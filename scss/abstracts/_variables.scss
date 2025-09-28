@@ -1,0 +1,17 @@
+@use 'sass:color';
+
+$md: 1024px;
+$sm: 768px;
+$xs: 480px;
+
+$w: 1440px;
+
+$bg: #28282C;
+$fontColor: #EEEEEE;
+$fontColor2: #757575;
+
+$hover: color.adjust($bg, $lightness: 20%);
+$hover2: color.adjust($bg, $lightness: -20%);
+
+$font-base: 16px;
+$mainFont: 'Roboto', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;

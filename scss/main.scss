@@ -1,0 +1,8 @@
+// Entry point following best practices
+@use 'abstracts/variables';
+@use 'abstracts/mixins';
+@use 'components/index' as *;
+
+// Project-level tokens (optional)
+:root { --container-max: #{variables.$w}; }
+
