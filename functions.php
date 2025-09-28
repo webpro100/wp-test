@@ -367,3 +367,5 @@ function wpa_fix_svg_thumb()
 	echo '<style>td.media-icon img[src$=".svg"], img[src$=".svg"].attachment-post-thumbnail {width: 100% !important;height: auto !important}</style>';
 }
 add_action('admin_head', 'wpa_fix_svg_thumb');
+
+//test3333
