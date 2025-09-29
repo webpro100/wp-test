@@ -96,7 +96,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   gsap.to("#hero", {
-    backgroundPosition: "0 100%",
+    backgroundPosition: "0 1000%",
     ease: "power2.in",
     scrollTrigger: {
       trigger: "#hero",
