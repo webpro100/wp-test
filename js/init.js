@@ -118,11 +118,11 @@ document.addEventListener("DOMContentLoaded", async () => {
 
 function checkActive() {
   $(".home section").each(function () {
-    if (
-      $(window).scrollTop() + $(window).height() / 2 > $(this).offset().top &&
-      $(window).scrollTop() + $(window).height() * 0.5 <
-        $(this).offset().top + $(this).outerHeight(true)
-    ) {
+    const scrollMiddle = $(window).scrollTop() + $(window).height() / 2;
+    const blockTop = $(this).offset().top;
+    const blockBottom = blockTop + $(this).outerHeight(true);
+
+    if (scrollMiddle > blockTop && scrollMiddle < blockBottom) {
       if (!$(this).hasClass("active")) {
         $(".home section").removeClass("active");
         $(this).addClass("active");
