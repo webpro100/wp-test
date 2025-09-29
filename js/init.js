@@ -96,8 +96,7 @@ document.addEventListener("DOMContentLoaded", async () => {
   });
 
   gsap.to("#hero", {
-    backgroundPosition: "0 1000%",
-    ease: "power2.in",
+    backgroundPosition: "0 100%",
     scrollTrigger: {
       trigger: "#hero",
       start: "top top",
@@ -127,14 +126,10 @@ function checkActive() {
         $(".home section").removeClass("active");
         $(this).addClass("active");
 
-        console.log($(this).attr("id"));
-
         let tag = $(this).attr("id");
 
         $("#menu-main-menu a").removeClass("active");
         $("#menu-main-menu a[href='#" + tag + "']").addClass("active");
-
-        // $("#line_nav>div>span").eq($(this).index()).addClass("active");
       }
     }
   });

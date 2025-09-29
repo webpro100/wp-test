@@ -30,7 +30,7 @@
         <div class="swiper-button-prev prev_1"></div>
         <div class="swiper-button-next next_1"></div>
 
-        <div class="swiper-scrollbar scrollbar1"></div>
+        <div class="swiper-scrollbar scrollbar_1"></div>
     </div>
 
 </section>
@@ -52,7 +52,7 @@
         <div class="swiper-button-prev prev_2"></div>
         <div class="swiper-button-next next_2"></div>
 
-        <div class="swiper-scrollbar scrollbar2"></div>
+        <div class="swiper-scrollbar scrollbar_2"></div>
     </div>
 </section>
 
