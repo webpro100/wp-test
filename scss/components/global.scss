@@ -62,7 +62,7 @@ p {
 
 
 .wrap {
-	width: 1440px;
+	width: var(--container-max);
 	max-width: 96%;
     margin: 0 auto;
 }

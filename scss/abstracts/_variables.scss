@@ -6,12 +6,13 @@ $xs: 480px;
 
 $w: 1440px;
 
-$bg: #28282C;
-$fontColor: #EEEEEE;
-$fontColor2: #757575;
+$bg: #fff;
+$hover-color: rgb(21, 14, 232);;
+$fontColor: #333;
+$fontColor2: rgb(21, 14, 232);
 
-$hover: color.adjust($bg, $lightness: 20%);
-$hover2: color.adjust($bg, $lightness: -20%);
+$hover: color.adjust($hover-color, $lightness: 20%);
+$hover2: color.adjust($hover-color, $lightness: -20%);
 
 $font-base: 16px;
 $mainFont: 'Roboto', system-ui, -apple-system, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;

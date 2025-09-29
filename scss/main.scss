@@ -4,5 +4,8 @@
 @use 'components/index' as *;
 
 // Project-level tokens (optional)
-:root { --container-max: #{variables.$w}; }
+:root { 
+    --container-max: #{variables.$w}; 
+}
+
 

@@ -287,12 +287,11 @@ add_action(
 
 
 /* Register Nav Areas */
-//register_nav_menus( 
-//	array( 
-//		'primary'  	=>	__( 'Menu Top' ), 
-//		'secondary'	=>	__( 'Menu Sidebar' )
-//	 )
-// ); 
+register_nav_menus(
+	array(
+		'main_menu'  	=>	__('Main Menu'),
+	)
+);
 /* End of Register Nav Areas */
 
 

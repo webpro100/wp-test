@@ -12,11 +12,57 @@
 </head>
 
 <body <?php body_class(); ?>>
+
     <header>
         <div class="wrap">
-            <a class="logo" href="/">
-                logo
-            </a>
-            <h1>Main Title</h1>
+            <?php
+            $main_nav = array(
+                'theme_location' => 'main_menu',
+                'fallback_cb' => '',
+                'container' => ''
+            );
+            wp_nav_menu($main_nav);
+            ?>
         </div>
     </header>
+
+
+
+
+
+    <?php
+
+/*
+
+
+    <!-- Slider main container -->
+    <div class="swiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+
+            <div class="swiper-slide">Slide 1</div>
+            <div class="swiper-slide">Slide 2</div>
+            <div class="swiper-slide">Slide 3</div>
+
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+
+        <!-- If we need scrollbar -->
+        <div class="swiper-scrollbar"></div>
+    </div>
+
+
+    */
+
+
+// $main_nav = array(
+//     'theme_location' => 'main_menu',
+//     'fallback_cb' => '',
+//     'container' => ''
+// );
+// wp_nav_menu($main_nav);
