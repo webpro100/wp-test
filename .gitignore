@@ -10,7 +10,7 @@ yarn-error.log*
 package-lock.json
 
 # Build output
-dist/
+.vite/
 
 # Sass cache
 .sass-cache/
