@@ -15,6 +15,10 @@ header{
       list-style: none;
       a{
         color: #fff;
+        transition: .3s;
+        &.active{
+          color:#09f;
+        }
       }
     }
    }
